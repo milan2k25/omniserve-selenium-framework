@@ -1,0 +1,31 @@
+{
+    "product": "Website",
+    "build_name": "master",
+    "build_url": "http://dockerv5.example.com:3421/",
+    "sheldon_url": "http://sheldon-testing.example.com:5674/",
+    "countries": [
+        "IN",
+        "US",
+        "GB",
+        "AU",
+        "SG",
+        "DE"
+    ],
+    "country_code_id_mapping": {
+        "IN": 6,
+        "US": 34,
+        "GB": 14,
+        "AU": 2,
+        "SG": 213,
+        "DE": 15
+    },
+    "automation_email": {
+        "email_id": "automation.qa@example.in",
+        "email_app_password": "cpugojhupufmntjl"
+    },
+    "superadmin": {
+        "email": "admin@example.com",
+        "password": "example@123",
+        "name": "Super Admin"
+    }
+}

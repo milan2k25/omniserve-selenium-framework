@@ -1,0 +1,10 @@
+{
+    "mysql":
+    {
+        "host":"i2rds-read-replica2675.saggffwe78326r7.us-east-2.rds.amazonaws.com",
+        "database":"prion",
+        "user":"example_web",
+        "password":"dummy@56467857"
+    }
+        
+}

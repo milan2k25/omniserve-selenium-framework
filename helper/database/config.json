@@ -1,0 +1,15 @@
+{
+    "mysql":
+    {
+        "host":"devmysql.example.net",
+        "database":"prion",
+        "user":"superadminuser",
+        "password":"hvduvdW@123"
+    },
+    "mongo":
+    {
+        "host":"104.211.202.29",
+        "port":27017
+    }
+        
+}

@@ -1,0 +1,116 @@
+{
+    "btn_enroll_now_on_top":[
+        [
+            "XPATH",
+            "//div[@id='sticky-header']//a[@id='enrollBtnMenu']"
+        ],
+        [
+            "XPATH",
+            "//a[@id='enrollBtnMenu']"
+        ],
+        [
+            "ID",
+            "enrollBtnMenu"
+        ]
+    ],
+    "btn_enroll_now_osl":[
+        [
+            "XPATH",
+            "//form[@id='oslEnrollBtn']//button[@class='btn opt-btn']"
+        ],
+        [
+            "XPATH",
+            "//form[@id='oslEnrollBtn']//button"
+        ],
+        [
+            "XPATH",
+            "(//button[contains(text(),'Enroll now')])[1]"
+        ]
+    ],
+    "btn_enroll_now_bootcamp":[
+        [
+            "XPATH",
+            "//form[@id='lvcEnrollBtn']//button[@class='btn opt-btn']"
+        ],
+        [
+            "XPATH",
+            "//form[@id='lvcEnrollBtn']//button"
+        ],
+        [
+            "XPATH",
+            "(//button[contains(text(),'Enroll now')])[2]"
+        ]
+    ],
+    "btn_enroll_now":[
+        [
+            "XPATH",
+            "//button[@class='btn opt-btn']"
+        ]
+    ],
+    "btn_enroll_now_group_classes":[
+        [
+            "XPATH",
+            "//div[@id='trainingSchedule']//a[@class='btn']"
+        ]
+    ],
+    "btn_back_to_program":[
+        [
+            "XPATH",
+            "//a[contains(text(),'Back to program')]"
+        ]
+    ],
+    "btn_enroll_now_masters_program":[
+        [
+            "XPATH",
+            "//form[@id='frmBundles']//a"
+        ],
+        [
+            "XPATH",
+            "(//form[@id='enroll-btn']//button)[1]"
+        ],
+        [
+            "XPATH",
+            "//a[contains(text(),'Enroll now')]"
+        ],
+        [
+            "XPATH",
+            "(//form[@id='enroll-btn']//button[contains(text(),'ENROLL NOW')])[1]"
+        ]
+    ],
+    "btn_enroll_now_certification":[
+        [
+            "XPATH",
+            "//button[@class='btn opt-btn']"
+        ]
+    ],
+    "course_name_in_url":[
+        [
+            "XPATH",
+            "//div[@class='container']//h1"
+        ]
+    ],
+    "common_button_enroll_now_certificaton":[
+        [
+            "XPATH",
+            "//button[contains(text(),'Enroll now')]"
+        ],
+        [
+            "XPATH",
+            "(//div[@class='card']//a[contains(text(),'Enroll Now')])"
+        ]
+    ],
+    "country_dropdown":[
+        [
+            "CSS",
+            "[alt='Country Flag']"
+        ],
+        [
+            "CSS",
+            "[class='caret country-flag-btn']"
+        ],
+        [
+            "XPATH",
+            "//li[@id='footer-country']//b[@class='caret country-flag-btn']"
+        ]
+    ]
+}
