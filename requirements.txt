@@ -1,0 +1,103 @@
+# ===================================================================
+# Selenium Automation Framework - Requirements
+# Python Version: 3.8+
+# Last Updated: November 9, 2025
+# ===================================================================
+
+# Core Selenium WebDriver
+selenium>=4.15.0
+
+# Testing Framework
+pytest>=7.4.3
+pytest-html>=4.1.1
+pytest-xdist>=3.5.0
+pytest-rerunfailures>=12.0
+pytest-timeout>=2.2.0
+pytest-ordering>=0.6
+
+# Allure Reporting
+allure-pytest>=2.13.2
+
+# Web Browser Drivers
+webdriver-manager>=4.0.1
+msedge-selenium-tools>=3.141.4
+
+# Database Connectivity
+mysql-connector-python>=8.2.0
+pymysql>=1.1.0
+psycopg2-binary>=2.9.9
+SQLAlchemy>=2.0.23
+
+# API Testing & HTTP Requests
+requests>=2.31.0
+urllib3>=2.1.0
+
+# Data Processing & Analysis
+pandas>=2.1.3
+numpy>=1.26.2
+openpyxl>=3.1.2
+
+# CSV & JSON Handling
+csvkit>=1.3.0
+
+# AWS Integration
+boto3>=1.29.7
+botocore>=1.32.7
+
+# WebEx Integration
+webexteamssdk>=1.6.1
+
+# Email Handling
+secure-smtplib>=0.1.1
+
+# Interface & Design Patterns
+python-interface>=1.6.1
+
+# Configuration Management
+python-dotenv>=1.0.0
+configparser>=6.0.0
+
+# Logging & Monitoring
+colorlog>=6.8.0
+loguru>=0.7.2
+
+# Date & Time Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Image Processing (for screenshots)
+Pillow>=10.1.0
+
+# HTML/XML Parsing
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+
+# Retry & Tenacity
+tenacity>=8.2.3
+
+# Utilities
+attrs>=23.1.0
+certifi>=2023.11.17
+charset-normalizer>=3.3.2
+idna>=3.6
+
+# Type Checking (Optional but recommended)
+mypy>=1.7.1
+types-requests>=2.31.0.10
+
+# Code Quality (Development Dependencies)
+# Uncomment if needed for development
+# black>=23.11.0
+# flake8>=6.1.0
+# pylint>=3.0.2
+# autopep8>=2.0.4
+
+# Performance Testing (Optional)
+# locust>=2.17.0
+
+# API Documentation (Optional)
+# swagger-ui-bundle>=0.0.9
+
+# Additional Utilities
+six>=1.16.0
+packaging>=23.2
